@@ -1,6 +1,6 @@
 const scrollFunc = () => {
     const links = document.querySelectorAll('.header-menu__item a'),
-      linkDescr = document.querySelector('.card-details__link-characteristics');
+          linkDescr = document.querySelector('.card-details__link-characteristics');
 
     seamless.polyfill();
 
