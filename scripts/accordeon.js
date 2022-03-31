@@ -19,7 +19,8 @@ const accordeon = () => {
 
         chButton.addEventListener('click', () => {
             chItems.forEach((closeItem, closeIndex) => {
-                if (closeItem.querySelector('.characteristics__description').classList.contains('open') && index != closeIndex) {
+                if (closeItem.querySelector('.characteristics__description')
+                        .classList.contains('open') && index != closeIndex) {
                     closeAccordeonItem(closeItem);
                 }
             });
